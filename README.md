@@ -1,4 +1,4 @@
-# Forms
+# Collapse
 
 ![Deploy](https://github.com/ElizabethKorn/collapse/actions/workflows/deploy.yml/badge.svg)
 
