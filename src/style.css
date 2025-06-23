@@ -1,0 +1,29 @@
+.collapsible__btn {
+  background-color: rgb(35, 8, 240);
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.collapsible__btn:hover {
+  background-color: #0056b3;
+}
+
+.collapsible__content {
+  overflow: hidden;
+  max-height: 0;
+  width: 50%;
+  transition: max-height 0.3s ease;
+  padding: 0 10px;
+  border: 1px solid #aaa;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
+
+.collapsible__content.open {
+  padding: 10px;
+}
